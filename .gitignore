@@ -1,0 +1,50 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+venv/
+
+# Large binaries — excluded from repo
+*.apk
+*.idsig
+*.jar
+*.whl
+*.aar
+
+# Frida server binaries
+frida-server-*
+
+# Apktool / jadx output (regenerable)
+apktool_out/
+verify_out/
+verify_out2/
+sources/
+resources/
+
+# Firmware chunks (intermediate)
+firmware_chunks/
+firmware_unpack_test/
+firmware_work/
+
+# SDK source trees (use git submodules instead)
+tws_earbuds-main/
+audio_prj_collections-main/
+
+# Screenshots
+*.png
+
+# BTSnoop captures (large, regenerable)
+*.cfa
+
+# Logs (large, regenerable)
+*.log
+
+# IDE
+.idea/
+.vscode/
+*.iml
+
+# OS
+Thumbs.db
+.DS_Store

@@ -1,0 +1,6 @@
+[submodule "sdk_refs/tws_earbuds"]
+	path = sdk_refs/tws_earbuds
+	url = https://github.com/Derek-Vencer/tws_earbuds.git
+[submodule "sdk_refs/audio_prj_collections"]
+	path = sdk_refs/audio_prj_collections
+	url = https://github.com/sprlightning/audio_prj_collections.git
